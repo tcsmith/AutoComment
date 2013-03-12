@@ -59,5 +59,11 @@
         <member name="M:AutoComment.Connect.InsertCppComment">
             <summary>Inserts a C++ style comment at the beginning of the current line.</summary>
         </member>
+        <member name="M:AutoComment.Connect.InsertCppCommentWithDateStamp">
+            <summary>Inserts a C++ style comment with a date and time stamp at the beginning of the current line.</summary>
+        </member>
+        <member name="M:AutoComment.Connect.InsertFiraxisHeader">
+            <summary>Inserts the stand Firaxis header at the top of the current document.</summary>
+        </member>
     </members>
 </doc>
