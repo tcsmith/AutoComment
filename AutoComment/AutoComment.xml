@@ -56,6 +56,12 @@
             <param term='handled'>Informs the caller if the command was handled or not.</param>
             <seealso class='Exec' />
         </member>
+        <member name="M:AutoComment.Connect.InsertCComment">
+            <summary>Inserts a C style comment at the beginning of the current line.</summary>
+        </member>
+        <member name="M:AutoComment.Connect.InsertCCommentWithDateStamp">
+            <summary>Inserts a C style comment with a date and time stamp at the beginning of the current line.</summary>
+        </member>
         <member name="M:AutoComment.Connect.InsertCppComment">
             <summary>Inserts a C++ style comment at the beginning of the current line.</summary>
         </member>
@@ -63,7 +69,16 @@
             <summary>Inserts a C++ style comment with a date and time stamp at the beginning of the current line.</summary>
         </member>
         <member name="M:AutoComment.Connect.InsertFiraxisHeader">
-            <summary>Inserts the stand Firaxis header at the top of the current document.</summary>
+            <summary>Inserts the standard Firaxis header at the top of the current document.</summary>
+        </member>
+        <member name="M:AutoComment.Connect.InsertFiraxisAddition">
+            <summary>Inserts the Firaxis addition note.</summary>
+        </member>
+        <member name="M:AutoComment.Connect.InsertFiraxisBegin">
+            <summary>Inserts the Firaxis begin note.</summary>
+        </member>
+        <member name="M:AutoComment.Connect.InsertFiraxisEnd">
+            <summary>Inserts the Firaxis end note.</summary>
         </member>
     </members>
 </doc>
